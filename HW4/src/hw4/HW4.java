@@ -1,4 +1,13 @@
+
 package hw4;
+
+/**
+HW4 - Sort words found in a text file alphabetically and compare times
+both between sorting using a bubble algorithm and sorting using the Java sort 
+utility.  The times are also compared between clock and CPU time.
+Rachel Rosebrook
+September 2017
+*/
 
 
 import java.io.File;
@@ -11,13 +20,6 @@ import java.time.temporal.ChronoUnit;
 
 
 
-/**
- *
- * Java program to read file using Scanner class in Java.
- * java.util.Scanner is added on Java 5 and offer convenient method to read data
- *
- * @author
- */
 public class HW4 {
     
     static ArrayList<String> text = new ArrayList<>();
@@ -64,8 +66,6 @@ public class HW4 {
                 fw.write(arr[i] + " ");
             }
         }
-        
-        
         
     }
     
